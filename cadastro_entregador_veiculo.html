@@ -31,42 +31,70 @@
     <div class="row">
       <div class="divisor"></div>
       <div class="col-sm">
-        <h3>Dados Pessoais</h3><br>
+        <h3>Adicionar Novo Veiculo</h3><br>
         <form>
-          <div class="form-group">
-            <label for="nome_completo">Nome Completo</label>
-            <input type="text" class="form-control" id="nome_completo" aria-describedby="emailHelp" placeholder="Digite seu nome completo">
-          </div>
+          
           <br>
           <div class="row">
             <div class="col">
-              <label for="CPF">CPF</label>
-              <input type="text" class="form-control" id="CPF" placeholder="Digite somente números">
-            </div>
-            <div class="col">
-              <label for="telefone">Telefone</label>
-              <input type="text" class="form-control" id="telefone" placeholder="Ex:(DDD) xxxx-xxxx">
-            </div>
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="login">Login</label>
-            <input type="email" class="form-control" id="login" aria-describedby="emailHelp" placeholder="Digite seu login">
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="email">Endereço de Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu endereço de e-mail">
-          </div>
-          <br>
-          <div class="row">
-            <div class="col">
-              <label for="senha">Senha</label>
+              <label for="senha">Placa</label>
               <input type="password" class="form-control"  id="senha">
-            </div>z
+            </div>
             <div class="col">
-              <label for="confirma_senha">Confirmar Senha</label>
+              <label for="confirma_senha">Ano-Veiculo</label>
               <input type="password" class="form-control">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <label for="senha">Renavam</label>
+              <input type="password" class="form-control"  id="senha">
+            </div>
+            <div class="col">
+              <label for="confirma_senha">Cpf Documento</label>
+              <input type="password" class="form-control">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <label for="senha">Marca</label>
+              <input type="password" class="form-control"  id="senha">
+            </div>
+            <div class="col">
+              <label for="confirma_senha">Modelo</label>
+              <input type="password" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+              <br>
+              <label for="confirma_senha">Tipo de Veiculo</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Selecione o seu veiculo</option>
+                <option value="1">Bicicleta</option>
+                <option value="2">Bicicleta Motorizada</option>
+                <option value="3">Motocicleta</option>
+                <option value="4">Carro de Passeio</option>
+                <option value="5">Carro de Carga</option>
+                <option value="6">Caminhão pequeno porte</option>
+              </select>
+            </div>
+            <br>
+            <div class="form-check">
+              <br>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Possuo Veiculo Eletrico!
+              </label>
+            </div>
+            <br>
+            <div class="form-check">
+              <br>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Possuo autorização para utilizar meu veiculo como ferramenta de trabalho.
+              </label>
             </div>
           </div>
         </form> 
@@ -79,7 +107,7 @@
       <div class="col-md">
       </div>
       <div class="col-md" align="center">
-        <button class="button button1"><a href="entregador_finalizado.html">Finalizar Cadastro</a></button>
+        <button class="button button1"><a href="entregador_finalizado.html">Finalizar</a></button>
       </div>
       <div class="col-md">
       
