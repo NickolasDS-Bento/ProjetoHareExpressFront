@@ -77,3 +77,8 @@
       color: white;
       background-color: #043249;
     }
+
+    #bordabase {
+      border-radius: 25px;
+      border: 2px solid #043249; 
+    }
