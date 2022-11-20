@@ -59,7 +59,7 @@
       width: 510px;
       height: 100px;
       background-color: #043249;
-      color: white;
+      color: white; 
       font-weight: bolder;
       border: none;
       text-align: center;
@@ -78,7 +78,18 @@
       background-color: #043249;
     }
 
+
     #bordabase {
       border-radius: 25px;
       border: 2px solid #043249; 
     }
+    
+    .bem_vindo {
+      margin-right: 20px;
+    }
+
+    .label {
+      font-weight: 500;
+      justify-content:space-around;
+    }
+
