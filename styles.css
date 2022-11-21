@@ -78,6 +78,12 @@
       background-color: #043249;
     }
 
+
+    #bordabase {
+      border-radius: 25px;
+      border: 2px solid #043249; 
+    }
+    
     .bem_vindo {
       margin-right: 20px;
     }
@@ -86,3 +92,4 @@
       font-weight: 500;
       justify-content:space-around;
     }
+
